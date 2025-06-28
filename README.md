@@ -37,7 +37,7 @@ This is a simple web application I built that allows users to shorten long URLs 
 ### Mobile view
 ![Shortened](screenshots/mobile.png)
 
-### Redirection on Short Link
+### middleware logging
 ![Redirect](screenshots/logs.png)
 
 
