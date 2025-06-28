@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ShowLinks from "./ShowLinks";
+import './Compress.css'
 
 export default function Compress() {
   const [url, setUrl]     = useState("");
@@ -32,16 +33,16 @@ export default function Compress() {
   return (
     <>
       <form onSubmit={handleSubmit} className="form">
-        <label htmlFor="in">Enter URL</label>
+        <label htmlFor="in" id='url'>Enter URL</label>
         <input
           id="in"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           placeholder="https://example.com"
           required
-          autoFocus
+          class='input'
         />
-        <button type="submit">Shorten</button>
+        <button type="submit" class='shortbtn'>Shorten</button>
       </form>
 
      
