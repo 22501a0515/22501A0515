@@ -1,35 +1,9 @@
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import Login from "./Login";
-import Products from "./Products";
-import Home from "./Home";
-import RootLayout from "./RootLayout";
-function App(){
-  const browser = createBrowserRouter(
-    [
-      {
-        path:'/',
-        element:<RootLayout />,
-        children:[
-          {
-            path:'/home',
-            element:<Home />
-          },
-          {
-            path:'/product',
-            element:<Products/>
-          },
-          {
-            path:'/login',
-            element:<Login />
-          }
-        ]
-      }
-    ]
-  )
+import Compress from "./Compress";
+export default function App() {
   return (
-  <>
-  <RouterProvider router = {browser}></RouterProvider>
-  </>
-  )
+    <div className="wrapper">
+      <h2>URL Shortener</h2>
+      <Compress />
+    </div>
+  );
 }
-export default App;

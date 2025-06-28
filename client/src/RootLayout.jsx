@@ -1,5 +1,5 @@
 import {Outlet} from 'react-router-dom'
-import MyNavbar from './MyNavbar';
+import MyNavbar from './Navbar';
 function RootLayout(){
    return <>
    <MyNavbar />
