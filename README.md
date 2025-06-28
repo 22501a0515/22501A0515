@@ -32,12 +32,12 @@ This is a simple web application I built that allows users to shorten long URLs 
 
 
 ### Homepage
-![Homepage](screenshots/home.png)
+![Homepage](screenshots/homepage.jpeg)
 
 ### Mobile view
 ![Shortened](screenshots/mobile.png)
 
 ### Redirection on Short Link
-![Redirect](screenshots/redirect.png)
+![Redirect](screenshots/logs.png)
 
 
